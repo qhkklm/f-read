@@ -1,0 +1,63 @@
+# f-gemini-delete Privacy Policy
+
+f-gemini-delete is a Chrome extension designed to help users batch select and delete Gemini web chat history on https://gemini.google.com/.
+
+## Data We Collect
+
+f-gemini-delete does not collect, sell, or share users' personal data.
+
+The extension may store limited local extension state in the user's browser, including:
+- deletion count
+- license unlock status
+- license key, if the user chooses to enter one
+- local UI state related to selected conversations
+
+This data is stored using Chrome extension storage and is used only to provide the extension's user-facing features.
+
+## Website Access
+
+f-gemini-delete requests access to https://gemini.google.com/ only to display batch selection controls and perform user-triggered delete actions on the Gemini web page.
+
+The extension does not read Gemini chat content for profiling, advertising, analytics, or resale. Delete actions are performed only after the user selects conversations and triggers the delete operation.
+
+## License Validation
+
+If the user enters a license key, the extension sends the license key to the license validation endpoint:
+
+https://api.lemonsqueezy.com/v1/licenses/validate
+
+This request is used only to validate the license and unlock paid functionality. The extension does not send Gemini chat content to this endpoint.
+
+## How We Use Data
+
+Data handled by the extension is used only to:
+- enable multi-select mode
+- track selected conversations during the current workflow
+- run user-triggered deletion actions
+- show deletion progress
+- store local extension state
+- validate license status when applicable
+
+## Data Sharing
+
+f-gemini-delete does not sell, rent, or share user data with advertisers, data brokers, or analytics providers.
+
+The only external data transfer is license validation, when the user voluntarily submits a license key. That transfer is used solely to validate the license.
+
+## Limited Use Disclosure
+
+f-gemini-delete's use of information received from Chrome extension permissions complies with the Chrome Web Store User Data Policy, including the Limited Use requirements.
+
+The extension only uses requested permissions to provide or improve its single purpose: helping users batch manage and delete Gemini web chat history. The extension does not use user data for advertising, creditworthiness, profiling, or unrelated purposes.
+
+## Data Security
+
+License validation requests are sent over HTTPS. Local extension state is stored using Chrome extension storage.
+
+## User Control
+
+Users can stop using the extension at any time by disabling or uninstalling it from Chrome. Uninstalling the extension removes extension-managed local data according to Chrome's extension storage behavior.
+
+## Contact
+
+For privacy-related questions, contact the developer through the support contact provided on the Chrome Web Store listing.
